@@ -302,7 +302,7 @@ if __name__ == '__main__':  # Ensures this is the file being ran
 keep_alive()
 
 try:
-  from config import value
+  from assetFiles.config import value
   client.run(value['token'])
 except:
   print(f"\n\nUh oh! Something happened!\n\nMake sure your config.py is formatted properly and the token is correct!\n\n")

@@ -14,7 +14,7 @@ I got tired of bots where you have to pay for simple things like volume control 
 First, you will need a way to host this whole thing! You can use your own IDE or you can use [Repl.it](https://repl.it) for development hosting. There are other services to look for however!
 
 Second off, you will need to create a `config.py` file.
-  1. Create a new file in the root folder called `config.py`.
+  1. Create a new file in the `assetFiles` folder called `config.py`.
   2. Add `value = {` at the start.
   3. Add `"token":` inside.
   4. Add your bot's token behind `"token":`.
