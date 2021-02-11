@@ -5,7 +5,7 @@ assetFiles/config.py
   # Root
     work_log.txt
     # assetFiles
-      assetiles/__pycache
+      assetiles/__pycache__
     # cogs
       cogs/__pycache__
       cogs/cog_example.py
