@@ -305,4 +305,4 @@ try:
   from assetFiles.config import value
   client.run(value['token'])
 except:
-  print(f"\n\nUh oh! Something happened!\n\nMake sure your config.py is formatted properly and the token is correct!\n\n")
+  print(f"\n\nUh oh! Something happened!\n\nMake sure your assetFiconfig.py is formatted properly and the token is correct!\n\n")
