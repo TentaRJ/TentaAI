@@ -1,7 +1,0 @@
-config.py=[
-
-value = {
-  "token" : "Nzk4Mjg2MDEwOTQ0NTg1NzU5.X_yzyA.ozpjTdVM6r6w1fEHVr3-P6xhpI4"
-}
-
-]
