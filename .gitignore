@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Personal Discord Token
-./assetFiles/token.py
+config.json

@@ -8,7 +8,6 @@ from PIL import Image
 from discord.ext import commands
 from func_timeout import func_timeout, FunctionTimedOut
 from assetFiles.keep_alive import keep_alive
-from assetFiles.token import token
 from assetFiles.bowser import bowser
 
 client = commands.Bot(command_prefix="?")
@@ -300,4 +299,4 @@ if __name__ == '__main__':  # Ensures this is the file being ran
 		client.load_extension(extension)  # Loades every extension.
 
 keep_alive() 
-client.run(token)  # Starts the bot
+client.run(config.token)  # Starts the bot
