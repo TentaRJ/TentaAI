@@ -1,5 +1,5 @@
 # Personal Discord Token
-assetFiles/config.py
+**/assetFiles/config.py
 
 # Folder Stuff
   # Root
@@ -7,8 +7,6 @@ assetFiles/config.py
     # assetFiles
       assetiles/__pycache__
     # cogs
-      cogs/__pycache__
-      cogs/cog_example.py
-      /cogs
+      **/cogs
     #scrapFiles
       scrapFiles/unusedCommands.py
