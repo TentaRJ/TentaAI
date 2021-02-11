@@ -1,14 +1,14 @@
 # Personal Discord Token
-assetFiles.config.py
+assetFiles/config.py
 
 # Folder Stuff
   # Root
     work_log.txt
     # assetFiles
-      assetiles.__pycache
+      assetiles/__pycache
     # cogs
-      cogs.__pycache__
-      cogs.cog_example.py
-      .cogs
+      cogs/__pycache__
+      cogs/cog_example.py
+      /cogs
     #scrapFiles
-      scrapFiles.unusedCommands.py
+      scrapFiles/unusedCommands.py
