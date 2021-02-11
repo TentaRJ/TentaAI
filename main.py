@@ -1,6 +1,7 @@
 import os
 import discord
 import asyncio
+import json
 import random
 import time
 import datetime
@@ -298,5 +299,7 @@ if __name__ == '__main__':  # Ensures this is the file being ran
 	for extension in extensions:
 		client.load_extension(extension)  # Loades every extension.
 
-keep_alive() 
-client.run(config.token)  # Starts the bot
+keep_alive()
+
+from config import value
+client.run(value['token'])

@@ -13,13 +13,17 @@ I got tired of bots where you have to pay for simple things like volume control 
 
 First, you will need a way to host this whole thing! You can use your own IDE or you can use [Repl.it](https://repl.it) for development hosting. There are other services to look for however!
 
-Second off, you will need to create a `config.json` file.
-  1. Create a new file in the root folder called `config.json`.
-  2. Add `"token":` to the start of it.
-  3. Add your bot's token behind `"token":`.
+Second off, you will need to create a `config.py` file.
+  1. Create a new file in the root folder called `config.py`.
+  2. Add `value = {` at the start.
+  3. Add `"token":` inside.
+  4. Add your bot's token behind `"token":`.
+  5. Close it off with `}`.
   It should look like this now:
   ```py
-  "token":"Your-Token-Here"
+value = {
+  "token" : "<Your-Token-Here>"
+}
   ```
 You can grab your bot's token from the [Discord Devloper Portal](https://discord.com/developers). Copy the token and keep it secret! If it ever gets lost, you can always regenerate it!
 
