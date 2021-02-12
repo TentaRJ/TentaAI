@@ -9,7 +9,6 @@ from PIL import Image
 from discord.ext import commands
 from func_timeout import func_timeout, FunctionTimedOut
 from assetFiles.keep_alive import keep_alive
-from assetFiles.bowser import bowser
 
 client = commands.Bot(command_prefix="?")
 

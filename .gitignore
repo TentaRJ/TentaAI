@@ -5,11 +5,11 @@
   # Root
     **/work_log.txt
     # assetFiles
-      **/assetFiles/memberList.py
+      memberList
     # cogs
-      **/cogs
+      cogs/
     #scrapFiles
-      **/scrapFiles/unusedCommands.py
+      scrapFiles/
 
 # Misc
 __pycache__
