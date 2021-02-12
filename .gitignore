@@ -2,14 +2,14 @@
 **/assetFiles/config.py
 
 # Folder Stuff
-  # Root
-    **/work_log.txt
-    # assetFiles
-      memberList
-    # cogs
-      cogs/
-    #scrapFiles
-      scrapFiles/
+# Root
+**/work_log.txt
+# assetFiles
+memberList
+# cogs
+cogs/
+#scrapFiles
+scrapFiles/
 
 # Misc
 __pycache__/
