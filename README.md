@@ -31,9 +31,18 @@ You can grab your bot's token from the [Discord Devloper Portal](https://discord
 
 You are able to set it to detect any word and respond with an array of options, like whenever you say `Mario`, it will trigger!
 
+You can add your own events using the [Discord API](https://discordpy.readthedocs.io/en/latest/api.html)! Just type this out to make events:
+```py
+@client.event
+async def eventname(ctx):
+  #Put event actions in here!
+```
+Examples of events are `on_ready`, `on_message`, and so many more. [Check the documentation!](https://discordpy.readthedocs.io/en/latest/api.html)
+
 You can add your own custom commands using the [Discord API](https://discordpy.readthedocs.io/en/latest/api.html)! Just type this out to make a command:
 ```py
 @client.command()
 async def commandname(ctx):
   # Put any custom actions here!
 ```
+Examples of commands are `message.delete()`, `async ctx.channel.send("message content")`, and so much more! [Check the documentation!](https://discordpy.readthedocs.io/en/latest/api.html)
