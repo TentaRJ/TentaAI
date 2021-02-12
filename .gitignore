@@ -3,9 +3,10 @@
 
 # Folder Stuff
 # Root
-**/work_log.txt
+
 # assetFiles
 memberList
+**/assetFiles/judge.py
 # cogs
 cogs/
 #scrapFiles
