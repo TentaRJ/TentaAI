@@ -3,10 +3,13 @@
 
 # Folder Stuff
   # Root
-    work_log.txt
+    **/work_log.txt
     # assetFiles
-      assetiles/__pycache__
+      **/assetFiles/memberList.py
     # cogs
       **/cogs
     #scrapFiles
-      scrapFiles/unusedCommands.py
+      **/scrapFiles/unusedCommands.py
+
+# Misc
+__pycache__
